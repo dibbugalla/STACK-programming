@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+#include<string.h>
+#define size 5
+template<class temp>
+class stack{
+int top=-1;
+temp st[size];
+public:
+void push(temp);
+temp pop();
+temp topelement();
+bool isfull();
+bool is_empty();
+};
+
+template<class temp>
